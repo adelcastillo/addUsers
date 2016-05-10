@@ -1,0 +1,4 @@
+
+Bundle-SymbolicName: addusers
+Bundle-Version: 0.0.1
+Import-Package: *
