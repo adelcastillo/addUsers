@@ -5,19 +5,23 @@ Bundle-SymbolicName: addusers
 Bundle-Version: 0.0.1
 Created-By: 1.8.0_77 (Oracle Corporation)
 Import-Package: com.google.gson;version="[2.2,3)",com.liferay.counter.
- kernel.service;version="[1.0,2)",com.liferay.portal.kernel.exception;
- version="[7.0,8)",com.liferay.portal.kernel.log;version="[7.0,8)",com
- .liferay.portal.kernel.model;version="[1.0,2)",com.liferay.portal.ker
- nel.service;version="[1.0,2)",com.liferay.portal.kernel.util;version=
- "[7.0,8)"
+ kernel.service;version="[1.0,2)",com.liferay.journal.model;version="[
+ 1.0,2)",com.liferay.journal.service;version="[1.0,2)",com.liferay.por
+ tal.kernel.comment;version="[1.0,2)",com.liferay.portal.kernel.except
+ ion;version="[7.0,8)",com.liferay.portal.kernel.log;version="[7.0,8)"
+ ,com.liferay.portal.kernel.model;version="[1.0,2)",com.liferay.portal
+ .kernel.service;version="[1.0,2)",com.liferay.portal.kernel.util;vers
+ ion="[7.0,8)",com.liferay.ratings.kernel.model;version="[1.0,2)",com.
+ liferay.ratings.kernel.service;version="[1.0,2)"
 Javac-Debug: on
 Javac-Deprecation: off
 Javac-Encoding: UTF-8
-Private-Package: com.adelcastillo.demo,com.liferay.gs.spain
+Private-Package: com,com.adelcastillo.demo
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.O
  bject"
 Require-Capability: osgi.service;filter:="(objectClass=com.liferay.por
  tal.kernel.service.UserLocalService)";effective:=active,osgi.ee;filte
  r:="(&(osgi.ee=JavaSE)(version=1.8))"
-Service-Component: OSGI-INF/com.adelcastillo.demo.UserCountCommand.xml
+Service-Component: OSGI-INF/com.adelcastillo.demo.AddComentsRandom.xml
+ ,OSGI-INF/com.adelcastillo.demo.UserCountCommand.xml
 Tool: Bnd-3.1.0.201512181341
