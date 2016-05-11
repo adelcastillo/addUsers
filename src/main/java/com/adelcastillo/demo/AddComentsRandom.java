@@ -44,7 +44,7 @@ public class AddComentsRandom {
 						testServiceContext);
 
 				if (addRatings) {
-					double score = 0.8;
+					double score = random.nextDouble();
 					RatingsEntryLocalServiceUtil.updateEntry(user.getUserId(), className, classPK, score,
 							_serviceContext);
 				}
