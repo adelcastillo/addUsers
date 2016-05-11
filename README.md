@@ -6,6 +6,7 @@ Very simple but fast way to create as many random users for Liferay 7 as you wis
 ### Usage:
 
     - (connect to your local GOGO Console)
+    - (install gson.jar v.2.2.4)
     - addUsers <companyID> -- Will add 1 sample user to the <companyID>
     - addUsers <num> <companyID> -- Will add <num> users to the <companyID>
 
@@ -14,6 +15,7 @@ Very simple but fast way to create as many random users for Liferay 7 as you wis
 
 ### Tech
 * [randomuser.me] - Cool API for creating powerful random users
+* GSon library - v 2.2.4
 
 ### Thanks
 * To Daniel Couso ([dacousalr](https://github.com/dacousalr)), always a pleasure working
